@@ -1,7 +1,7 @@
-python preprocess.py -train_src /home/lily/af726/spring-2019/summarization_general/data-final/data-truncated-opennmt/train.txt.src.tokenizd.fixed.cleaned.truncated \
-                     -train_tgt /home/lily/af726/spring-2019/summarization_general/data-final/data-truncated-opennmt/train.txt.tgt.tokenizd.fixed.cleaned.truncated \
-                     -valid_src /home/lily/af726/spring-2019/summarization_general/data-final/data-truncated-opennmt/val.txt.src.tokenizd.fixed.cleaned.truncated \
-                     -valid_tgt /home/lily/af726/spring-2019/summarization_general/data-final/data-truncated-opennmt/val.txt.tgt.tokenizd.fixed.cleaned.truncated \
+python preprocess.py -train_src /Users/chengxuyou/Documents/Study/FYP/HI-MAP/Multi-News-master/code/Multi-XScience/train.src \
+                     -train_tgt /Users/chengxuyou/Documents/Study/FYP/HI-MAP/Multi-News-master/code/Multi-XScience/train.tgt \
+                     -valid_src /Users/chengxuyou/Documents/Study/FYP/HI-MAP/Multi-News-master/code/Multi-XScience/val.src\
+                     -valid_tgt /Users/chengxuyou/Documents/Study/FYP/HI-MAP/Multi-News-master/code/Multi-XScience/val.tgt \
                      -save_data newser_sent_500/newser_sents \
                      -src_seq_length 10000 \
                      -tgt_seq_length 10000 \
